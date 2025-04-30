@@ -1,0 +1,79 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+
+}
+.container{
+    border-radius: 50px;
+    border: 1px solid  black;
+    border-radius: 5px;
+    background-color: rgb(117, 146, 146);
+    height: auto;
+    width: 25vw;
+    box-shadow: 5px 5px 5px 5px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    font-size: 20px;
+    font-family:sans-serif;
+}
+.Addtask{
+    display: flex;
+    justify-content:space-evenly;
+     flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+
+
+#newtask{
+     border: 1px solid black;
+     padding: 1px;
+     font-size: 15px;
+     text-align: center;
+     text-transform: capitalize;
+}
+button{
+    padding: 5px;
+    background-color: rgb(227, 227, 18);
+    
+    text-align: center;
+    text-transform: capitalize;
+}
+button:hover{
+    border: 1px solid black;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px;
+}
+ul{
+    list-style: none;
+    padding: 10px;
+
+}
+ ul li{
+    display: flex;
+    justify-content:space-between;
+    border: 1px solid white;
+    text-transform: capitalize;
+    border-radius: 2px;
+    text-align: center;
+
+}
+
+@media only screen and (max-width: 600px) {
+    #inputask{
+        width: 50%;
+    }
+    
+
+
+}
